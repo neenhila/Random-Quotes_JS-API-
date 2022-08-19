@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.550), rgba(128, 128, 128, 0.596));
+}
+
+.container {
+    position: relative;
+    width: 450px;
+    height: 240px;
+    border: 1px solid red;
+    overflow: hidden;
+    box-shadow: 2px 8px 10px 2px blueviolet;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    width: 450px;
+    height: 240px;
+    background-image: linear-gradient(to right top,rgba(128, 128, 128, 0.705), rgba(0, 0, 0, 0.76));
+    font-size: 24px;
+    word-wrap: break-word;
+    overflow: auto;
+    color: rgb(19, 22, 75);
+}
+
+.author{
+    margin-top: 10px;
+    color: rgb(170, 39, 39);
+    font-weight: bolder;
+}
+.btnContainer {
+    position: relative;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid gray;
+    box-shadow: 0 4px 4px 0px;
+    line-height: 24px;
+    width: 100px;
+    font-weight: bolder;
+}
+
+button:not(:last-child) {
+    margin-right: 15px;
+}
+
+button:active{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: rgb(155, 148, 148);
+}
